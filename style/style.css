@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.light {
+    font-weight: lighter!important;
+    color: darkgray;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+}
+
+.nav {
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.nav-container {
+    margin: auto;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.nav img { 
+    width: 10%;
+    height: 10%;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-image: url('/images/picture.jpg');
+    background-size: cover;
+}
+
+.biography {
+    display: flex;
+    margin: 5% 0 10% 0;
+    align-items: center;
+}
+
+.bio-flex-container {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.user-information {
+    margin-left: 10%;
+}
+
+.username {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    margin: auto;
+    margin-left: 10px;
+    text-align: center;
+    color: black;
+    padding: 0px;
+    font-size: 12px;
+    display: table;
+}
+
+.button:hover {
+    background-color: #bebebe;
+    cursor: pointer;
+}
+
+.button h3 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.user-counts h2 {
+    font-size: 17px;
+}
+
+.user-bio {
+    margin-top: 10px;
+}
+
+.user-bio p {
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+.image-grid {
+    margin-top: 10%;
+}
+
+.image-row {
+    display: flex;
+    align-content: flex-start;
+}
+
+.image {
+    background-image: url('https://picsum.photos/200/300');
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin: 3px;
+}
