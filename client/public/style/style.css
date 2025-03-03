@@ -33,11 +33,18 @@ h2 {
     width: 50%;
     padding-top: 20px;
     padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav img { 
     width: 10%;
     height: 10%;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: black;
 }
 
 .container {
